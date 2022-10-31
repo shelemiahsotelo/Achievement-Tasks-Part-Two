@@ -1,4 +1,4 @@
-# Achievement Task - Odd and Even Numbers
+# Achievement Task #6 - Odd and Even Numbers
 # Shelemiah Sotelo - 8823190
 # This is to determine and separate prime and non-prime numbers.
 
