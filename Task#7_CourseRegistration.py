@@ -1,13 +1,21 @@
-student = {}
+#Achievement Task #7 - Course Registration
+# Shelemiah Sotelo - 8823190
 
-student["First Name"] = input("Please enter First Name: ")
+
+# Empty dictionary.
+student = {}   
+
+# Add keys and values to dictionary
+student["First Name"] = input("Please enter First Name: ")           
 student["Last Name"] = input("Please enter Last Name: ")
 student["Student Number"] = input("Please enter Student Number: ")
 
+#Used .get to assign values to a variable.
 firstname = student.get("First Name")
 lastname = student.get("Last Name")
 studentnumber = student.get("Student Number")
 
+# Dictionary of courses available. (Course Code for keys, Course Name for values.)
 courses = {
    "PROG1783" : "IT Support Programming Fundamentals",
    "CON0101" : "Conestoga 101",
